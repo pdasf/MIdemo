@@ -1,0 +1,128 @@
+{
+  "select_options": [
+    [
+      {
+        "id": "1296",
+        "title": "全部学科",
+        "select": true,
+        "category": "REGION"
+      },
+      {
+        "id": "1297",
+        "title": "语文",
+        "select": false,
+        "category": "REGION"
+      },
+      {
+        "id": "1298",
+        "title": "数学",
+        "select": false,
+        "category": "REGION"
+      },
+      {
+        "id": "1550",
+        "title": "英语",
+        "select": false,
+        "category": "REGION"
+      }
+    ],
+    [
+      {
+        "id": "1299",
+        "title": "全部出版",
+        "select": true,
+        "category": "TYPE"
+      },
+      {
+        "id": "1300",
+        "title": "人教版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1551",
+        "title": "北师大版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1552",
+        "title": "苏教版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1553",
+        "title": "冀教版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1554",
+        "title": "外研版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1555",
+        "title": "译林版",
+        "select": false,
+        "category": "TYPE"
+      },
+      {
+        "id": "1556",
+        "title": "牛津版",
+        "select": false,
+        "category": "TYPE"
+      }
+    ],
+    [
+      {
+        "id": "1322",
+        "title": "全部学期",
+        "select": true,
+        "category": "YEAR"
+      },
+      {
+        "id": "1323",
+        "title": "上学期",
+        "select": false,
+        "category": "YEAR"
+      },
+      {
+        "id": "1324",
+        "title": "下学期",
+        "select": false,
+        "category": "YEAR"
+      }
+    ],
+    [
+      {
+        "id": "1557",
+        "title": "同步课",
+        "select": true,
+        "category": "RIGHT"
+      },
+      {
+        "id": "1558",
+        "title": "专项课",
+        "select": false,
+        "category": "RIGHT"
+      }
+    ],
+    [
+      {
+        "id": "1372",
+        "title": "最多播放",
+        "select": true,
+        "category": "SORT"
+      },
+      {
+        "id": "1373",
+        "title": "最新上线",
+        "select": false,
+        "category": "SORT"
+      }
+    ]
+  ]
+}

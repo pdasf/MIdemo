@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <base-config cleartextTrafficPermitted="true">
+        <!-- Trust user added CAs while debuggable only -->
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- 账号一键登录，使用运营商网络取号功能时，请在network_config中添加域名的白名单：-->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">cmpassport.com</domain>
+        <domain includeSubdomains="true">10010.com</domain>
+        <domain includeSubdomains="true">xiaomi.srv</domain>
+    </domain-config>
+</network-security-config>
